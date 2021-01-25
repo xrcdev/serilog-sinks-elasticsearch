@@ -1,0 +1,6 @@
+Type;Method;Mode;Platform;Jit;Framework;Toolchain;Runtime;LaunchCount;WarmupCount;TargetCount;Affinity;Median;StdDev;Scaled
+FormattingBenchmarks;JsonFormatter;Throughput;Host;Host;Host;Core;Host;Auto;Auto;Auto;Auto;12.4016 us;0.8737 us;1.00
+FormattingBenchmarks;CompactJsonFormatter;Throughput;Host;Host;Host;Core;Host;Auto;Auto;Auto;Auto;6.0621 us;0.0359 us;0.49
+FormattingBenchmarks;RenderedJsonFormatter;Throughput;Host;Host;Host;Core;Host;Auto;Auto;Auto;Auto;15.6869 us;0.9942 us;1.26
+FormattingBenchmarks;RenderedCompactJsonFormatter;Throughput;Host;Host;Host;Core;Host;Auto;Auto;Auto;Auto;6.8628 us;0.4178 us;0.55
+0.0535 ms;0.61

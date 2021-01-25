@@ -28,10 +28,6 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <RootNamespace>Serilog.Formatting.ElasticSearch</RootNamespace>
   </PropertyGroup>
-    
-  <ItemGroup>
-    <PackageReference Include="Serilog" Version="2.8.0" />
-  </ItemGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard1.3' ">
     <DefineConstants>$(DefineConstants);NO_SERIALIZATION</DefineConstants>
@@ -39,6 +35,10 @@
 
   <ItemGroup>
     <DotNetCliToolReference Include="dotnet-version" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\serilog-2.8.0\src\Serilog\Serilog.csproj" />
   </ItemGroup>
     
 </Project>

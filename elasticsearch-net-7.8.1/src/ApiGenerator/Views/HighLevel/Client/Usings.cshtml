@@ -1,0 +1,12 @@
+@using ApiGenerator.Domain
+@using ApiGenerator.Domain.Code
+@inherits ApiGenerator.CodeTemplatePage<RestApiSpec>
+@foreach(var kv in Model.EndpointsPerNamespaceHighLevel)
+{
+	if (kv.Key != CsharpNames.RootNamespace)
+	{
+<text>using Nest.@(CsharpNames.ApiNamespace).@(kv.Key)@(CsharpNames.ApiNamespaceSuffix);
+</text>
+		continue;
+	}
+}

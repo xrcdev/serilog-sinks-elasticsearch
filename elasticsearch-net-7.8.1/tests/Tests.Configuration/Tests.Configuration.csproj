@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Elastic.Elasticsearch.Managed" Version="0.1.0-canary.0.244" />
+  </ItemGroup>
+</Project>

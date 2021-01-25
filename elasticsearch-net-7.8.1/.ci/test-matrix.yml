@@ -1,0 +1,13 @@
+---
+
+STACK_VERSION:
+  - 7.x-SNAPSHOT
+
+TEST_SUITE:
+  - oss
+  - xpack
+
+DOTNET_VERSION:
+    - 3.0.100
+
+exclude: ~
